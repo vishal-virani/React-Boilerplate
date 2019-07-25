@@ -54,3 +54,12 @@ run command: (Or connect real device via USB)
 ```bash
 $ yarn android
 ```
+
+
+## DevTools
+
+In development mode, you can install
+[React Native Debugger](https://github.com/jhen0409/react-native-debugger) as
+default debugger. if not install, it will use
+[Remote Redux DevTools](https://github.com/zalmoxisus/remote-redux-devtools) and
+[RemoteDev RN Debugger](https://github.com/jhen0409/remotedev-rn-debugger).
