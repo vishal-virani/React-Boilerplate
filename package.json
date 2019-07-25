@@ -1,0 +1,49 @@
+{
+  "name": "SagasApp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start --reset-cache",
+    "test": "jest",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "eject-android": "react-native eject android",
+    "eject-ios": "react-native eject ios",
+    "linking": "react-native link",
+    "clean": "rm -rf $TMPDIR/react-* && rm -rf $TMPDIR/haste-* && rm -rf $TMPDIR/metro-* && watchman watch-del-all"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.4.2",
+    "add": "^2.0.6",
+    "apisauce": "^1.0.2",
+    "prop-types": "^15.7.2",
+    "react": "16.8.3",
+    "react-native": "0.59.9",
+    "react-native-animatable": "^1.3.2",
+    "react-native-device-info": "^2.1.1",
+    "react-native-elements": "^1.1.0",
+    "react-native-gesture-handler": "^1.3.0",
+    "react-native-linear-gradient": "^2.5.4",
+    "react-native-splash-screen": "^3.2.0",
+    "react-native-vector-icons": "^6.5.0",
+    "react-navigation": "^3.11.0",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.1",
+    "redux-devtools": "^3.5.0",
+    "redux-persist": "^5.10.0",
+    "redux-saga": "^1.0.3",
+    "reduxsauce": "^1.1.0",
+    "yarn": "^1.16.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/runtime": "^7.4.5",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
+    "metro-react-native-babel-preset": "^0.54.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
