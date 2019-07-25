@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Applications/MAMP/htdocs/React-Native/Vishal-Saga/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/addweb/.gradle/caches/transforms-2/files-2.1/3aec9fbd9e85f54d5f7e928a7074d818/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}
